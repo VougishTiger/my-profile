@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Georgia, serif;
+  background-color: #f8f4e8; 
+  color: #111;
+  line-height: 1.6;
+}
+
+.newspaper {
+  margin: 2rem auto;
+  border: 3px solid #222;
+  background: #fdfcf7;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.page {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-right: 2px dashed #bbb;
+  height: 100%;
+}
+
+.front-page {
+  text-align: center;
+}
+
+.front-page h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  border-bottom: 5px double #000;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+}
+
+.front-page h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.front-page img {
+  max-width: 200px;
+  border: 3px solid #000;
+  margin-top: 1.2rem;
+  filter: grayscale(100%);
+}
+
+h1, h2, h3 {
+  font-family: "Times New Roman", Georgia, serif;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #000;
+  padding-bottom: 0.4rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  margin-bottom: 0.6rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  text-align: justify;
+  font-size: 1rem;
+}
+
+p::first-letter {
+  font-size: 2.5rem;
+  font-weight: bold;
+  float: left;
+  margin-right: 0.4rem;
+  line-height: 1;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 200px;
+  height: auto;
+  border: 3px solid #000;
+  margin-bottom: 1rem;
+  filter: grayscale(100%);
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.skill-category {
+  flex: 1;
+  border-left: 2px solid #000;
+  padding-left: 1rem;
+}
+
+.skill-category:first-child {
+  border-left: none;
+}
+
+.skill-category ul {
+  list-style: none;
+  margin-left: 0.5rem;
+}
+
+.skill-category li {
+  margin-bottom: 0.4rem;
+  position: relative;
+}
+
+.skill-category li::before {
+  content: "• ";
+  font-weight: bold;
+  color: #000;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.project-card {
+  border-top: 2px solid #000;
+  padding-top: 1rem;
+}
+
+.project-card img {
+  max-width: 100%;
+  border: 2px solid #000;
+  filter: grayscale(100%);
+  margin-bottom: 0.5rem;
+}
+
+.project-card a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  padding: 0.6rem;
+  border: 1px solid #000;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.contact-form button:hover {
+  background: #444;
+}
+
+.contact-info {
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.85rem;
+  border-top: 2px solid #000;
+  padding-top: 0.5rem;
+  margin-top: auto;
+}
+
+/* === 📱 Responsive Enhancements === */
+
+/* Slightly darker gray background */
+body {
+  background-color: #eae8e3; 
+}
+
+@media (max-width: 1024px) {
+  .newspaper {
+    width: 90%;
+    margin: 1rem auto;
+  }
+
+  .page {
+    padding: 1.5rem;
+  }
+
+  .front-page h1 {
+    font-size: 2.2rem;
+  }
+
+  .front-page img {
+    max-width: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .newspaper {
+    width: 100%;
+    border: none;
+    box-shadow: none;
+  }
+
+  .page {
+    padding: 1rem;
+    border-right: none;
+  }
+
+  .front-page h1 {
+    font-size: 1.8rem;
+  }
+
+  .front-page h2 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+
+  .skills-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .profile-pic {
+    width: 150px;
+  }
+
+  .project-card img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .page {
+    padding: 0.8rem;
+  }
+
+  .front-page h1 {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+  }
+
+  .front-page img {
+    max-width: 120px;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form button {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
+
+  footer {
+    font-size: 0.75rem;
+  }
+}
+
+.skills-image {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.skills-image img {
+  max-width: 300px;
+  width: 100%;
+  border: 2px solid #000;
+  filter: grayscale(100%);
+}
