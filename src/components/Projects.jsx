@@ -4,23 +4,21 @@ const Projects= ()=> {
       <h2>Projects</h2>
       <div className="projects-container">
         <div className="project-card">
-          <img src="/images/project1.jpg" alt="Project 1" />
-          <h3>Portfolio Website</h3>
-          <p>A responsive React portfolio showcasing my work and skills.</p>
-          <a href="https://github.com/yourusername/portfolio" target="_blank">View Project</a>
+          <h3>PressCss.com</h3>
+          <p>A playful project showcasing creative CSS effects, animations, and styling experiments that turn simple layouts into eye-catching designs.</p>
+          <a href="https://presscss.com" target="_blank">View Project</a>
         </div>
 
         <div className="project-card">
-          <img src="/images/project2.jpg" alt="Project 2" />
-          <h3>Data Dashboard</h3>
-          <p>Interactive dashboard built with Python + SQL for visualizing datasets.</p>
-          <a href="https://github.com/yourusername/data-dashboard" target="_blank">View Project</a>
+          <h3>Quotify</h3>
+          <p>A web app that delivers random inspirational quotes at the press of a button — quick wisdom wrapped in clean design.</p>
+          <a href="https://quotify-1-jdpz.onrender.com" target="_blank">View Project</a>
         </div>
 
         <div className="project-card">
-          <img src="/images/project3.jpg" alt="Project 3" />
-          <h3>GIS Mapping</h3>
-          <p>Geospatial analysis project using R and Leaflet to visualize real-world data.</p>
+          
+          <h3>Jupyter Notebook</h3>
+          <p>A growing Jupyter Notebook where I experiment with Python, R, SQL, and GIS. From cleaning data to building visualizations, it’s my hands-on journal of learning data science step by step.</p>
           <a href="https://github.com/yourusername/gis-project" target="_blank">View Project</a>
         </div>
       </div>
