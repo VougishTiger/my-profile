@@ -19,7 +19,7 @@ const Projects= ()=> {
           
           <h3>Jupyter Notebook</h3>
           <p>A growing Jupyter Notebook where I experiment with Python, R, SQL, and GIS. From cleaning data to building visualizations, it’s my hands-on journal of learning data science step by step.</p>
-          <a href="https://github.com/yourusername/gis-project" target="_blank">View Project</a>
+          <a href="https://github.com/VougishTiger/jupyter-notebook" target="_blank">View Project</a>
         </div>
       </div>
     </section>
