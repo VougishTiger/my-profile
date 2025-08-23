@@ -2,6 +2,7 @@ const About= ()=> {
   return(
     <section id="about">
       <h2>About Me</h2>
+      <p className="byline">By [Robin Singh], Staff Writer · Published: Aug 20, 2025</p>
       <div className="about-container">
         <img 
           src="/images/profile-about.jpg" 

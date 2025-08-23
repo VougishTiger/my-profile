@@ -1,7 +1,29 @@
+import { Bar } from "react-chartjs-2";
+import { Chart as ChartJS, Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale } from "chart.js";
+
+ChartJS.register(Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale);
+
 const Skills= ()=> {
-  return(
+  const data= {
+    labels: ["HTML", "CSS", "JavaScript", "React", "Python", "R", "SQL", "GIS"],
+    datasets: [
+      {
+        label: "Skill Level",
+        data: [90, 85, 80, 75, 70, 65, 70, 60], 
+        backgroundColor: "rgba(0,0,0,0.7)"
+      }
+    ]
+  };
+
+  const options= {
+    responsive: true,
+    maintainAspectRatio: false
+  };
+
+  return (
     <section id="skills">
       <h2>Skills</h2>
+      <p className="byline">By [Robin Singh], Staff Writer · Published: Aug 20, 2025</p>
       <div className="skills-container">
         <div className="skill-category">
           <h3>Frontend / Web Dev</h3>
@@ -22,8 +44,9 @@ const Skills= ()=> {
           </ul>
         </div>
       </div>
-      <div className="skills-image">
-        <img src="/images/skills-footer.jpg" alt="Skills illustration" />
+
+      <div className="skills-chart" style={{ height: "300px", marginTop: "2rem" }}>
+        <Bar data={data} options={options} />
       </div>
     </section>
   );

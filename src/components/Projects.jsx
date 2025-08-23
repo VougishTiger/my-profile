@@ -2,6 +2,7 @@ const Projects= ()=> {
   return (
      <section id="projects">
       <h2>Projects</h2>
+      <p className="byline">By [Robin Singh], Staff Writer · Published: Aug 20, 2025</p>
       <div className="projects-container">
         <div className="project-card">
           <h3>PressCss.com</h3>
@@ -20,6 +21,15 @@ const Projects= ()=> {
           <h3>Jupyter Notebook</h3>
           <p>A growing Jupyter Notebook where I experiment with Python, R, SQL, and GIS. From cleaning data to building visualizations, it’s my hands-on journal of learning data science step by step.</p>
           <a href="https://github.com/VougishTiger/jupyter-notebook" target="_blank">View Project</a>
+        </div>
+
+        <div className="projects-dashboard">
+          <h3>Developer Stats</h3>
+          <ul>
+            <li>📈 GitHub Commits This Month: 42</li>
+            <li>🚀 Projects Completed: 7</li>
+            <li>☕ Coffee Cups Consumed: 128</li>
+          </ul>
         </div>
       </div>
     </section>

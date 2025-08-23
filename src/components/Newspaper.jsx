@@ -21,6 +21,10 @@ const Newspaper= ()=> {
             alt="Front page profile" 
             className="front-profile"
         />
+        <div className="quote-section">
+          <h3>Quote of the Day</h3>
+          <QuoteOfTheDay />
+        </div>
       </div>
 
       {/* Full Pages */}
