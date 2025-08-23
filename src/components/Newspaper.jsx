@@ -4,7 +4,7 @@ import Skills from "./Skills";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Footer from "./Footer";
-import QuoteOfTheDay from "./QuoteOfTheDay";
+import QuoteOfTheDay from "./QuoteOfTheDay.";
 
 const Newspaper= ()=> {
   return (

@@ -1,6 +1,6 @@
 import {useState, useEffect} from "react";
 
-const quoteOfTheDay= ()=> {
+const QuoteOfTheDay= ()=> {
   const [quote, setQuote]= useState("");
 
   useEffect(()=> {
