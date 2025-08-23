@@ -9,7 +9,7 @@ import QuoteOfTheDay from "./QuoteOfTheDay";
 const Newspaper= ()=> {
   return (
     <HTMLFlipBook width={600} height={800} className="newspaper">
-      {/* 📰 Front Page */}
+      
       <div className="page front-page">
         <h1>📰 The Daily Me</h1>
         <h2>Headlines</h2>
@@ -28,7 +28,7 @@ const Newspaper= ()=> {
         </div>
       </div>
 
-      {/* Full Pages */}
+    
       <div className="page"><About /></div>
       <div className="page"><Skills /></div>
       <div className="page"><Projects /></div>
