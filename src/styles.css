@@ -469,3 +469,23 @@ footer {
     font-size: 1.1rem;
   }
 }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  height: auto !important;
+}
+
+.newspaper {
+  margin-top: 0 !important;
+  align-self: flex-start !important;
+}
+
+.page-container {
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+}
