@@ -94,3 +94,24 @@ h1, h2 {
 .contact-form button:hover {
   background: #ff6600;
 }
+.profile-pic {
+  max-width: 200px;
+  border-radius: 8px;
+  border: 3px solid #111;
+  margin-bottom: 1rem;
+}
+
+.skills-chart {
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 600px;
+  height: 350px;
+}
+
+.project-card img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #111;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}

@@ -1,6 +1,34 @@
 import { motion } from "framer-motion";
+import { Bar } from "react-chartjs-2";
+import {
+  Chart as ChartJS,
+  Title,
+  Tooltip,
+  Legend,
+  BarElement,
+  CategoryScale,
+  LinearScale
+} from "chart.js";
+
+ChartJS.register(Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale);
 
 const Skills = () => {
+  const data = {
+    labels: ["HTML", "CSS", "JavaScript", "React", "Python", "R", "SQL", "GIS"],
+    datasets: [
+      {
+        label: "Skill Level",
+        data: [90, 85, 80, 75, 70, 65, 70, 60],
+        backgroundColor: "rgba(0,0,0,0.7)"
+      }
+    ]
+  };
+
+  const options = {
+    responsive: true,
+    maintainAspectRatio: false
+  };
+
   return (
     <motion.section
       id="skills"
@@ -30,9 +58,11 @@ const Skills = () => {
           </ul>
         </div>
       </div>
+      <div className="skills-chart">
+        <Bar data={data} options={options} />
+      </div>
     </motion.section>
   );
 };
 
 export default Skills;
-
