@@ -6,13 +6,14 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 import QuoteOfTheDay from "./QuoteOfTheDay";
 
-const Newspaper= ()=> {
+const Newspaper = () => {
   return (
     <HTMLFlipBook
-    width={600}
-    height={800}
-    className="newspaper"
-    clickEventForward={false}  
+      width={600}
+      height={700}
+      className="newspaper"
+      clickEventForward={false}
+      useMouseEvents={false}
     >
       <div className="page front-page">
         <h1>📰 The Daily Me</h1>
@@ -26,19 +27,12 @@ const Newspaper= ()=> {
           alt="Front page profile" 
           className="front-profile"
         />
-        <div className="breaking-news">
-          <h3>Breaking News</h3>
-          <p>Developer graduates Fullstack Academy Bootcamp, expands into Data Science with Python & R.</p>
-        </div>
-        <div className="fact-box">
-          <h3>Fact of the Day</h3>
-          <p>Python was named after Monty Python, not the snake!</p>
-        </div>
         <div className="quote-section">
           <h3>Quote of the Day</h3>
           <QuoteOfTheDay />
         </div>
       </div>
+
       <div className="page"><About /></div>
       <div className="page"><Skills /></div>
       <div className="page"><Projects /></div>

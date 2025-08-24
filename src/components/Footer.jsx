@@ -1,7 +1,7 @@
-const Footer= ()=> {
+const Footer = () => {
   return (
     <footer>
-      <p>© {new Date().getFullYear()} Robin Singh. All rights reserved.</p>
+      <p>&copy; 2025 Robin Singh. All Rights Reserved.</p>
     </footer>
   );
 };

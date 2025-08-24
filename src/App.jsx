@@ -1,11 +1,12 @@
-import Newspaper from "./components/Newspaper";
+import Newspaper from "./Newspaper";
+import "./styles.css";
 
-const App= ()=> {
+function App() {
   return (
-    <div className="app">
+    <div className="App">
       <Newspaper />
     </div>
   );
-};
+}
 
 export default App;

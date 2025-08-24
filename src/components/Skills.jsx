@@ -11,7 +11,7 @@ import {
 
 ChartJS.register(Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale);
 
-const Skills= ()=> {
+const Skills = () => {
   const data = {
     labels: ["HTML", "CSS", "JavaScript", "React", "Python", "R", "SQL", "GIS"],
     datasets: [
@@ -23,7 +23,7 @@ const Skills= ()=> {
     ]
   };
 
-  const options= {
+  const options = {
     responsive: true,
     maintainAspectRatio: false
   };
@@ -31,10 +31,7 @@ const Skills= ()=> {
   return (
     <section id="skills">
       <h2>Skills</h2>
-      <p className="byline">By [Robin Singh], Staff Writer · Published: Aug 20, 2025</p>
-      <p className="skills-intro">
-        In today’s issue, we highlight the developer’s core skills across web development and data science.
-      </p>
+      <p className="byline">By Robin Singh · Published: Aug 20, 2025</p>
       <div className="skills-container">
         <div className="skill-category">
           <h3>Frontend / Web Dev</h3>
@@ -55,12 +52,6 @@ const Skills= ()=> {
           </ul>
         </div>
       </div>
-      <div className="skills-sidebar">
-        <h3>Top Strength</h3>
-        <p>React — building interactive UIs with speed and efficiency.</p>
-        <h3>Currently Learning</h3>
-        <p>Geospatial Information Systems (GIS) for data visualization.</p>
-      </div>
       <div className="skills-chart">
         <Bar data={data} options={options} />
       </div>
@@ -69,3 +60,4 @@ const Skills= ()=> {
 };
 
 export default Skills;
+
