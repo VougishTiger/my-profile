@@ -1,4 +1,4 @@
-import Newspaper from "./Newspaper.jsx";
+import Newspaper from "./components/Newspaper.jsx";
 import "./styles.css";
 
 function App() {
