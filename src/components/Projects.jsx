@@ -1,36 +1,29 @@
 const Projects= ()=> {
   return (
-     <section id="projects">
+    <section id="projects">
       <h2>Projects</h2>
-      <p className="byline">By [Robin Singh], Staff Writer · Published: Aug 20, 2025</p>
+      <p className="byline">By [Robin Singh], Tech Correspondent · Published: Aug 20, 2025</p>
+      <p>
+        Each project is a story in itself — from creative coding experiments to real-world
+        problem solving with full stack and data science tools.
+      </p>
       <div className="projects-container">
         <div className="project-card">
-          <h3>PressCss.com</h3>
-          <p>A playful project showcasing creative CSS effects, animations, and styling experiments that turn simple layouts into eye-catching designs.</p>
-          <a href="https://presscss.com" target="_blank">View Project</a>
-        </div>
-
-        <div className="project-card">
           <h3>Quotify</h3>
-          <p>A web app that delivers random inspirational quotes at the press of a button — quick wisdom wrapped in clean design.</p>
-          <a href="https://quotify-1-jdpz.onrender.com" target="_blank">View Project</a>
+          <p>A React app that generates motivational quotes with a sleek UI.</p>
+          <img src="/images/quotify.jpg" alt="Quotify project" />
+          <a href="#">View Project</a>
         </div>
-
         <div className="project-card">
-          
-          <h3>Jupyter Notebook</h3>
-          <p>A growing Jupyter Notebook where I experiment with Python, R, SQL, and GIS. From cleaning data to building visualizations, it’s my hands-on journal of learning data science step by step.</p>
-          <a href="https://github.com/VougishTiger/jupyter-notebook" target="_blank">View Project</a>
+          <h3>PressCSS</h3>
+          <p>A fun CSS project that applies newspaper-style formatting to websites.</p>
+          <img src="/images/presscss.jpg" alt="PressCSS project" />
+          <a href="#">View Project</a>
         </div>
-
-        <div className="projects-dashboard">
-          <h3>Developer Stats</h3>
-          <ul>
-            <li>📈 GitHub Commits This Month: 42</li>
-            <li>🚀 Projects Completed: 7</li>
-            <li>☕ Coffee Cups Consumed: 128</li>
-          </ul>
-        </div>
+      </div>
+      <div className="projects-sidebar">
+        <h3>Editor’s Pick</h3>
+        <p><strong>PressCSS</strong> — praised for creativity in design and unique presentation.</p>
       </div>
     </section>
   );

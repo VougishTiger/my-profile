@@ -9,7 +9,6 @@ import QuoteOfTheDay from "./QuoteOfTheDay";
 const Newspaper= ()=> {
   return (
     <HTMLFlipBook width={600} height={800} className="newspaper">
-      
       <div className="page front-page">
         <h1>📰 The Daily Me</h1>
         <h2>Headlines</h2>
@@ -18,17 +17,23 @@ const Newspaper= ()=> {
         <p><strong>Projects:</strong> Building the future, one web app, data dashboard, and geospatial visualization at a time...</p>
         <p><strong>Contact:</strong> Reach out to collaborate today!</p>
         <img 
-            src="/images/profile-front.jpg"
-            alt="Front page profile" 
-            className="front-profile"
+          src="/images/profile-front.jpg"
+          alt="Front page profile" 
+          className="front-profile"
         />
+        <div className="breaking-news">
+          <h3>Breaking News</h3>
+          <p>Developer graduates Fullstack Academy Bootcamp, expands into Data Science with Python & R.</p>
+        </div>
+        <div className="fact-box">
+          <h3>Fact of the Day</h3>
+          <p>Python was named after Monty Python, not the snake!</p>
+        </div>
         <div className="quote-section">
           <h3>Quote of the Day</h3>
           <QuoteOfTheDay />
         </div>
       </div>
-
-    
       <div className="page"><About /></div>
       <div className="page"><Skills /></div>
       <div className="page"><Projects /></div>

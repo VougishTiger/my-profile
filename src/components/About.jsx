@@ -1,24 +1,18 @@
 const About= ()=> {
-  return(
+  return (
     <section id="about">
       <h2>About Me</h2>
-      <p className="byline">By [Robin Singh], Staff Writer · Published: Aug 20, 2025</p>
-      <div className="about-container">
-        <img 
-          src="/images/profile-about.jpg" 
-          alt="About me" 
-          className="profile-pic"
-        />
-        <p>
-          Hi, I’m Robin Singh! 🌍  
-          I started my journey with web development (HTML, CSS, JavaScript, React) 
-          and expanded into data science (Python, R, SQL, GIS). I am US ARMY Veteran and i have 3 french bulldogs. 
-        </p>
-        <p>
-          I love combining these worlds — building interactive websites that integrate 
-          data analysis and visualization. My mission is to create projects that are not 
-          only functional, but also out of the ordinary.
-        </p>
+      <p className="byline">By [Robin Singh], Feature Writer · Published: Aug 20, 2025</p>
+      <p>
+        I’m a full stack developer and data science enthusiast with a passion for turning
+        code into meaningful experiences. From bootcamp projects to data dashboards, I bring
+        design, logic, and problem solving together.
+      </p>
+      <div className="about-sidebar">
+        <h3>Career Highlight</h3>
+        <p>Graduated from Fullstack Academy Bootcamp, specializing in React and full stack web development.</p>
+        <h3>Fun Fact</h3>
+        <p>When I’m not coding, I explore GIS maps and enjoy coffee-fueled debugging sessions.</p>
       </div>
     </section>
   );
