@@ -1,9 +1,10 @@
+import PageWrapper from "./PageWrapper";
+
 const Projects = () => {
   return (
-    <section id="projects">
-      <h2>Projects</h2>
-      <p className="byline">By Robin Singh · Published: Aug 20, 2025</p>
-      <div className="projects-container">
+    <PageWrapper>
+      <section className="projects">
+        <h2>Projects</h2>
         <div className="project-card">
           <h3>Quotify</h3>
           <p>
@@ -18,16 +19,8 @@ const Projects = () => {
             visualize data, and create beginner-friendly dashboards.
           </p>
         </div>
-      </div>
-      <div className="projects-dashboard">
-        <h3>At a Glance</h3>
-        <ul>
-          <li>2 Major Projects</li>
-          <li>Frontend + Data Science Blend</li>
-          <li>Open-source on GitHub</li>
-        </ul>
-      </div>
-    </section>
+      </section>
+    </PageWrapper>
   );
 };
 
