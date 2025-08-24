@@ -12,21 +12,19 @@ body {
 }
 
 .newspaper {
-  margin: 0 auto; 
+  margin: 2rem auto;
   border: 3px solid #222;
   background: #fdfcf7;
   box-shadow: 0 0 20px rgba(0,0,0,0.4);
-  position: relative;
-  top: 0;
 }
 
 .page {
-  padding: 1rem 2rem;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   border-right: 2px dashed #bbb;
-  height: auto;
+  height: 100%;
 }
 
 .front-page {
@@ -464,24 +462,4 @@ footer {
   .contact-sidebar h3 {
     font-size: 1.1rem;
   }
-}
-
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-.page {
-  height: auto !important;
-}
-
-.newspaper {
-  margin-top: 0 !important;
-  align-self: flex-start !important;
-}
-
-.page-container {
-  align-items: flex-start !important;
-  justify-content: flex-start !important;
 }
