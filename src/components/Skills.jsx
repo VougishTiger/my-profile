@@ -45,7 +45,7 @@ const Skills= ()=> {
         </div>
       </div>
 
-      <div className="skills-chart" style={{ height: "300px", marginTop: "2rem" }}>
+      <div className="skills-chart" >
         <Bar data={data} options={options} />
       </div>
     </section>
