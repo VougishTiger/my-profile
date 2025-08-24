@@ -1,14 +1,13 @@
-import PageWrapper from "./PageWrapper";
-
-const Home = () => {
+const Navbar = () => {
   return (
-    <PageWrapper>
-      <section className="home">
-        <h1>Hi, I’m Robin Singh</h1>
-        <p>Full-Stack Developer | Data Enthusiast</p>
-      </section>
-    </PageWrapper>
+    <nav className="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
   );
 };
 
-export default Home;
+export default Navbar;
