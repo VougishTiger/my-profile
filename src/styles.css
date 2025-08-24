@@ -21,8 +21,11 @@ body {
 .page {
   padding: 1rem 1.5rem;
   border-right: 2px dashed #bbb;
-  height: auto !important;
+  height: 100% !important;
   display: block !important;
+}
+
+.page:not(.front-page) {
   column-count: 2;
   column-gap: 2rem;
 }

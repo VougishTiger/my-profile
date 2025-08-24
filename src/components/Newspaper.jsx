@@ -1,10 +1,10 @@
 import HTMLFlipBook from "react-pageflip";
-import About from "./About";
-import Skills from "./Skills";
-import Projects from "./Projects";
-import Contact from "./Contact";
-import Footer from "./Footer";
-import QuoteOfTheDay from "./QuoteOfTheDay";
+import About from "./About.jsx";
+import Skills from "./Skills.jsx";
+import Projects from "./Projects.jsx";
+import Contact from "./Contact.jsx";
+import Footer from "./Footer.jsx";
+import QuoteOfTheDay from "./QuoteOfTheDay.jsx";
 
 const Newspaper = () => {
   return (
