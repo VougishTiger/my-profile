@@ -9,10 +9,11 @@ import QuoteOfTheDay from "./QuoteOfTheDay";
 const Newspaper= ()=> {
   return (
     <HTMLFlipBook
-  width={600}
-  height={window.innerHeight - 50}  
-  className="newspaper"
->
+    width={600}
+    height={800}
+    className="newspaper"
+    clickEventForward={false}  
+    >
       <div className="page front-page">
         <h1>📰 The Daily Me</h1>
         <h2>Headlines</h2>

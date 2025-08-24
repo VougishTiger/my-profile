@@ -12,20 +12,19 @@ body {
 }
 
 .newspaper {
-  margin: 1rem auto; 
+  margin: 0 auto !important;
   border: 3px solid #222;
   background: #fdfcf7;
   box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 
 .page {
-  padding: 1.2rem; 
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  padding: 0.8rem 1.2rem 1.2rem 1.2rem;
   border-right: 2px dashed #bbb;
-  height: 100%;
+  height: auto !important;
+  padding-top: 0.5rem;
 }
+
 .front-page {
   text-align: center;
 }
@@ -465,13 +464,11 @@ footer {
 
 .html-flip-book {
   display: flex !important;
-  align-items: flex-start !important; 
-  justify-content: center !important; 
+  align-items: flex-start !important;
+  justify-content: center !important;
   height: 100% !important;
 }
 
-.page {
-  height: auto !important;  
-  min-height: 100% !important;
-  padding-top: 0.5rem;     
+.no-flip {
+  pointer-events: auto !important;
 }
