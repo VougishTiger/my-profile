@@ -115,3 +115,60 @@ h1, h2 {
   border-radius: 4px;
   margin-bottom: 1rem;
 }
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-pic.home-pic {
+  max-width: 250px;
+  border-radius: 50%;
+  border: 4px solid #111;
+  margin-bottom: 1.5rem;
+}
+
+.about-pic {
+  max-width: 220px;
+  border-radius: 8px;
+  border: 3px solid #111;
+  margin-bottom: 1.5rem;
+}
+
+.github-chart {
+  margin-top: 2rem;
+  max-width: 700px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.github-table {
+  margin-top: 2rem;
+  overflow-x: auto;
+}
+
+.github-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.github-table th, 
+.github-table td {
+  padding: 0.75rem;
+  border: 1px solid #111;
+  text-align: left;
+}
+
+.github-table th {
+  background: #f4f4f4;
+}
