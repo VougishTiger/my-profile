@@ -56,13 +56,47 @@ h1, h2 {
   list-style: none;
 }
 
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 700px;
+}
+
 .project-card {
-  border: 1px solid #ddd;
-  padding: 1rem;
-  margin: 1rem 0;
-  border-radius: 5px;
+  border: 2px solid #111;
+  padding: 1.5rem;
+  border-radius: 6px;
   background: #fff;
-  max-width: 600px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.project-card h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+}
+
+.project-card p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.project-card a {
+  display: inline-block;
+  margin: 0.3rem 0.6rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #111;
+  text-decoration: none;
+  font-size: 0.95rem;
+  background: #f8f4e8;
+  transition: 0.2s;
+}
+
+.project-card a:hover {
+  background: #ddd;
 }
 
 .contact-form {
@@ -94,6 +128,7 @@ h1, h2 {
 .contact-form button:hover {
   background: #ff6600;
 }
+
 .profile-pic {
   max-width: 200px;
   border-radius: 8px;
@@ -177,6 +212,8 @@ h1, h2 {
   display: flex;
   justify-content: space-around;
   margin: 2rem 0;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .stat-card {
@@ -185,9 +222,11 @@ h1, h2 {
   padding: 1rem 2rem;
   background: #fdfcf7;
   box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+  flex: 1 1 200px;
 }
 
 .stat-card h3 {
   font-size: 2rem;
   margin-bottom: 0.5rem;
 }
+

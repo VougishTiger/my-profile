@@ -7,7 +7,6 @@ const Projects = () => {
   const [liveProjects, setLiveProjects] = useState(0);
 
   useEffect(() => {
-    // Fetch total repos
     fetch("https://api.github.com/users/VougishTiger/repos")
       .then(res => res.json())
       .then(data => {
@@ -15,7 +14,6 @@ const Projects = () => {
         setLiveProjects(data.filter(repo => repo.homepage && repo.homepage !== "").length);
       });
 
-    // Fetch events for commits
     fetch("https://api.github.com/users/VougishTiger/events")
       .then(res => res.json())
       .then(events => {
@@ -61,20 +59,25 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="project-card">
-        <h3>Quotify</h3>
-        <p>A web app that generates random inspirational quotes.</p>
-        <a href="https://github.com/VougishTiger/Quotify" target="_blank" rel="noopener noreferrer">
-          View Project
-        </a>
-      </div>
+      <div className="projects-list">
+        <div className="project-card">
+          <h3>Quotify</h3>
+          <p>A web app that generates random inspirational quotes.</p>
+          <a href="https://github.com/VougishTiger/Quotify" target="_blank" rel="noopener noreferrer">
+            View Project
+          </a>
+          <a href="https://quotify.onrender.com" target="_blank" rel="noopener noreferrer">
+            Live Demo
+          </a>
+        </div>
 
-      <div className="project-card">
-        <h3>Data Science Experiments</h3>
-        <p>Explored Python, R, SQL, and GIS in Jupyter Notebook to analyze datasets.</p>
-        <a href="https://github.com/VougishTiger/DataScienceExperiments" target="_blank" rel="noopener noreferrer">
-          View Project
-        </a>
+        <div className="project-card">
+          <h3>Data Science Experiments</h3>
+          <p>Explored Python, R, SQL, and GIS in Jupyter Notebook to analyze datasets.</p>
+          <a href="https://github.com/VougishTiger/DataScienceExperiments" target="_blank" rel="noopener noreferrer">
+            View Project
+          </a>
+        </div>
       </div>
     </motion.section>
   );
