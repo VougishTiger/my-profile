@@ -172,3 +172,22 @@ h1, h2 {
 .github-table th {
   background: #f4f4f4;
 }
+
+.projects-stats {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 0;
+}
+
+.stat-card {
+  text-align: center;
+  border: 2px solid #000;
+  padding: 1rem 2rem;
+  background: #fdfcf7;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+}
+
+.stat-card h3 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}

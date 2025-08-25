@@ -11,7 +11,7 @@ const Home = () => {
     >
       <div className= "home-content">
         <img 
-        src="/public/images/profile-front.jpg"
+        src="/images/profile-front.jpg"
         alt="Profile"
         className="profile-pic home-pic"
         />
