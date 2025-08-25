@@ -66,7 +66,7 @@ const Projects = () => {
           <a href="https://github.com/VougishTiger/Quotify" target="_blank" rel="noopener noreferrer">
             View Project
           </a>
-          <a href="https://quotify.onrender.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://quotify-1-jdpz.onrender.com/" target="_blank" rel="noopener noreferrer">
             Live Demo
           </a>
         </div>
