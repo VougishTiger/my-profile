@@ -73,7 +73,7 @@ const Projects = () => {
 
         <div className="project-card">
           <h3>KenshoBot</h3>
-          <p>EUsing python and stats i made a AI trader that helps you trade.</p>
+          <p>Using python and stats i made a AI trader that helps you trade.</p>
           <a href="https://github.com/VougishTiger/KenshoBot" target="_blank" rel="noopener noreferrer">
             View Project
           </a>
