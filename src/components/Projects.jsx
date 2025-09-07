@@ -61,20 +61,20 @@ const Projects = () => {
 
       <div className="projects-list">
         <div className="project-card">
-          <h3>Quotify</h3>
-          <p>A web app that generates random inspirational quotes.</p>
-          <a href="https://github.com/VougishTiger/Quotify" target="_blank" rel="noopener noreferrer">
+          <h3>DreamScape</h3>
+          <p>A 3d rpg that changes your dream reality depending on the choice you make</p>
+          <a href="https://github.com/VougishTiger/DreamScape" target="_blank" rel="noopener noreferrer">
             View Project
           </a>
-          <a href="https://quotify-1-jdpz.onrender.com/" target="_blank" rel="noopener noreferrer">
+          <a href="" target="_blank" rel="noopener noreferrer">
             Live Demo
           </a>
         </div>
 
         <div className="project-card">
-          <h3>Data Science Experiments</h3>
-          <p>Explored Python, R, SQL, and GIS in Jupyter Notebook to analyze datasets.</p>
-          <a href="https://github.com/VougishTiger/DataScienceExperiments" target="_blank" rel="noopener noreferrer">
+          <h3>KenshoBot</h3>
+          <p>EUsing python and stats i made a AI trader that helps you trade.</p>
+          <a href="https://github.com/VougishTiger/KenshoBot" target="_blank" rel="noopener noreferrer">
             View Project
           </a>
         </div>
