@@ -61,12 +61,12 @@ const Projects = () => {
 
       <div className="projects-list">
         <div className="project-card">
-          <h3>DreamScape</h3>
-          <p>A 3d rpg that changes your dream reality depending on the choice you make</p>
-          <a href="https://github.com/VougishTiger/DreamScape" target="_blank" rel="noopener noreferrer">
+          <h3>ReceiptRocket</h3>
+          <p>ReceiptRocket is a full-stack Python web application that allows businesses to instantly generate and email professional PDF receipts to their clients. Users can securely enter client, business, and transaction data through a dynamic web form, which automatically produces a clean, printable receipt.</p>
+          <a href="https://github.com/VougishTiger/invoice-automation" target="_blank" rel="noopener noreferrer">
             View Project
           </a>
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a href="https://receiptrocket.onrender.com/" target="_blank" rel="noopener noreferrer">
             Live Demo
           </a>
         </div>
