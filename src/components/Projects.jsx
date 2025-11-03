@@ -61,20 +61,20 @@ const Projects = () => {
 
       <div className="projects-list">
         <div className="project-card">
-          <h3>ReceiptRocket</h3>
+          <h3>InstaVoicePDF</h3>
           <p>ReceiptRocket is a full-stack Python web application that allows businesses to instantly generate and email professional PDF receipts to their clients. Users can securely enter client, business, and transaction data through a dynamic web form, which automatically produces a clean, printable receipt.</p>
           <a href="https://github.com/VougishTiger/invoice-automation" target="_blank" rel="noopener noreferrer">
             View Project
           </a>
-          <a href="https://receiptrocket.onrender.com/" target="_blank" rel="noopener noreferrer">
+          <a href="https://instavoicePDF.onrender.com/" target="_blank" rel="noopener noreferrer">
             Live Demo
           </a>
         </div>
 
         <div className="project-card">
-          <h3>KenshoBot</h3>
-          <p>Using python and stats i made a AI trader that helps you trade.</p>
-          <a href="https://github.com/VougishTiger/KenshoBot" target="_blank" rel="noopener noreferrer">
+          <h3></h3>
+          <p></p>
+          <a href="" target="_blank" rel="noopener noreferrer">
             View Project
           </a>
         </div>
