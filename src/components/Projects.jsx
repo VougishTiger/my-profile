@@ -46,7 +46,7 @@ const Projects = () => {
 
       <div className="projects-stats">
         <div className="stat-card">
-          <h3>{commits}</h3>
+          <h3>26</h3>
           <p>Commits this month</p>
         </div>
         <div className="stat-card">
