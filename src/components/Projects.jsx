@@ -72,10 +72,13 @@ const Projects = () => {
         </div>
 
         <div className="project-card">
-          <h3></h3>
-          <p></p>
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <h3>MealSmith</h3>
+          <p>A Flask-based pantry tracker and recipe manager with user login, saved recipes, and ingredient-comparison using a live PostgreSQL cloud database.</p>
+          <a href="https://github.com/VougishTiger/MealSmith" target="_blank" rel="noopener noreferrer">
             View Project
+          </a>
+          <a href="https://mealsmith.onrender.com/" target="_blank" rel="noopener noreferrer">
+            Live Demo
           </a>
         </div>
       </div>
